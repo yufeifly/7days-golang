@@ -7,7 +7,7 @@ package geerpc
 import (
 	"encoding/json"
 	"fmt"
-	"geerpc/codec"
+	"github.com/geektutu/7days-golang/gee-rpc/day2-client/codec"
 	"io"
 	"log"
 	"net"

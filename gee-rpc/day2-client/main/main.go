@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"geerpc"
+	geerpc "github.com/geektutu/7days-golang/gee-rpc/day2-client"
 	"log"
 	"net"
 	"sync"

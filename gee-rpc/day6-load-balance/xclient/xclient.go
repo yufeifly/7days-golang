@@ -2,7 +2,7 @@ package xclient
 
 import (
 	"context"
-	. "geerpc"
+	. "github.com/geektutu/7days-golang/gee-rpc/day6-load-balance"
 	"io"
 	"reflect"
 	"sync"

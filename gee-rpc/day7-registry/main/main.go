@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"geerpc"
-	"geerpc/registry"
-	"geerpc/xclient"
+	geerpc "github.com/geektutu/7days-golang/gee-rpc/day7-registry"
+	"github.com/geektutu/7days-golang/gee-rpc/day7-registry/registry"
+	"github.com/geektutu/7days-golang/gee-rpc/day7-registry/xclient"
 	"log"
 	"net"
 	"net/http"

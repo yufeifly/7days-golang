@@ -8,11 +8,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"geerpc/codec"
 	"io"
 	"log"
 	"net"
 	"sync"
+
+	"github.com/geektutu/7days-golang/gee-rpc/day2-client/codec"
 )
 
 // Call represents an active RPC.

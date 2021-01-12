@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"geerpc"
-	"geerpc/codec"
+	geerpc "github.com/geektutu/7days-golang/gee-rpc/day1-codec"
+	"github.com/geektutu/7days-golang/gee-rpc/day1-codec/codec"
 	"log"
 	"net"
 	"time"

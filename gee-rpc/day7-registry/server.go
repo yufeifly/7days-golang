@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"geerpc/codec"
+	"github.com/geektutu/7days-golang/gee-rpc/day7-registry/codec"
 	"io"
 	"log"
 	"net"

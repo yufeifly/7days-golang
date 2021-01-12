@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"geerpc"
+	geerpc "github.com/geektutu/7days-golang/gee-rpc/day4-timeout"
 	"log"
 	"net"
 	"sync"
