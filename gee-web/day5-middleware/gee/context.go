@@ -36,6 +36,7 @@ func newContext(w http.ResponseWriter, req *http.Request) *Context {
 func (c *Context) Next() {
 	c.index++
 	s := len(c.handlers)
+	// 有的handler不一定会调用c.Next，所以这个循环是为了保证所有的handlers都会被调用。
 	for ; c.index < s; c.index++ {
 		c.handlers[c.index](c)
 	}

@@ -80,6 +80,6 @@ func (engine *Engine) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 		}
 	}
 	c := newContext(w, req)
-	c.handlers = middlewares
+	c.handlers = middlewares // 先加入中间件，然后再handle函数里找到处理函数
 	engine.router.handle(c)
 }

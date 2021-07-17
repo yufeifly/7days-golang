@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"time"
 
-	"gee"
+	"github.com/geektutu/7days-golang/gee-web/day5-middleware/gee"
 )
 
 func onlyForV2() gee.HandlerFunc {

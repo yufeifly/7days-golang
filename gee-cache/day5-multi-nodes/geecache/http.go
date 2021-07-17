@@ -2,7 +2,7 @@ package geecache
 
 import (
 	"fmt"
-	"geecache/consistenthash"
+	"github.com/geektutu/7days-golang/gee-cache/day5-multi-nodes/geecache/consistenthash"
 	"io/ioutil"
 	"log"
 	"net/http"

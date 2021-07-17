@@ -37,7 +37,7 @@ $ curl "http://localhost:9999/hello"
 import (
 	"net/http"
 
-	"gee"
+	"github.com/geektutu/7days-golang/gee-web/day4-group/gee"
 )
 
 func main() {

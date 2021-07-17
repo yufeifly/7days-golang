@@ -89,7 +89,7 @@ func (r *router) handle(c *Context) {
 	if n != nil {
 		key := c.Method + "-" + n.pattern
 		c.Params = params
-		c.handlers = append(c.handlers, r.handlers[key])
+		c.handlers = append(c.handlers, r.handlers[key]) // 加入处理函数
 	} else {
 		c.handlers = append(c.handlers, func(c *Context) {
 			c.String(http.StatusNotFound, "404 NOT FOUND: %s\n", c.Path)
