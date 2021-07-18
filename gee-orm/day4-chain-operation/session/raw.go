@@ -2,10 +2,10 @@ package session
 
 import (
 	"database/sql"
-	"geeorm/clause"
-	"geeorm/dialect"
-	"geeorm/log"
-	"geeorm/schema"
+	"github.com/geektutu/7days-golang/gee-orm/day4-chain-operation/clause"
+	"github.com/geektutu/7days-golang/gee-orm/day4-chain-operation/dialect"
+	"github.com/geektutu/7days-golang/gee-orm/day4-chain-operation/log"
+	"github.com/geektutu/7days-golang/gee-orm/day4-chain-operation/schema"
 	"strings"
 )
 
