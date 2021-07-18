@@ -1,7 +1,7 @@
 package geecache
 
 import (
-	"geecache/lru"
+	"github.com/geektutu/7days-golang/gee-cache/day2-single-node/geecache/lru"
 	"sync"
 )
 

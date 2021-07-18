@@ -35,7 +35,7 @@ Traceback:
 import (
 	"net/http"
 
-	"gee"
+	"github.com/geektutu/7days-golang/gee-web/day7-panic-recover/gee"
 )
 
 func main() {
@@ -46,7 +46,7 @@ func main() {
 	// index out of range for testing Recovery()
 	r.GET("/panic", func(c *gee.Context) {
 		names := []string{"geektutu"}
-		c.String(http.StatusOK, names[100])
+		c.String(http.StatusOK, names[100]) // 这里数组越界了，panic
 	})
 
 	r.Run(":9999")

@@ -1,7 +1,7 @@
 package session
 
 import (
-	"geeorm/clause"
+	"github.com/geektutu/7days-golang/gee-orm/day3-save-query/clause"
 	"reflect"
 )
 

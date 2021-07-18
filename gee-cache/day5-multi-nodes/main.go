@@ -11,7 +11,7 @@ kkk not exist
 import (
 	"flag"
 	"fmt"
-	"geecache"
+	"github.com/geektutu/7days-golang/gee-cache/day5-multi-nodes/geecache"
 	"log"
 	"net/http"
 )

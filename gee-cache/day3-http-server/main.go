@@ -10,7 +10,7 @@ kkk not exist
 
 import (
 	"fmt"
-	"geecache"
+	"github.com/geektutu/7days-golang/gee-cache/day3-http-server/geecache"
 	"log"
 	"net/http"
 )

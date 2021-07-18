@@ -2,9 +2,9 @@ package geeorm
 
 import (
 	"database/sql"
-	"geeorm/dialect"
-	"geeorm/log"
-	"geeorm/session"
+	"github.com/geektutu/7days-golang/gee-orm/day2-reflect-schema/dialect"
+	"github.com/geektutu/7days-golang/gee-orm/day2-reflect-schema/log"
+	"github.com/geektutu/7days-golang/gee-orm/day2-reflect-schema/session"
 )
 
 // Engine is the main struct of geeorm, manages all db sessions and transactions.

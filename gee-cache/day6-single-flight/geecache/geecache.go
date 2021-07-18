@@ -2,7 +2,7 @@ package geecache
 
 import (
 	"fmt"
-	"geecache/singleflight"
+	"github.com/geektutu/7days-golang/gee-cache/day6-single-flight/geecache/singleflight"
 	"log"
 	"sync"
 )

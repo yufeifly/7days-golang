@@ -2,10 +2,10 @@ package session
 
 import (
 	"database/sql"
-	"geeorm/clause"
-	"geeorm/dialect"
-	"geeorm/log"
-	"geeorm/schema"
+	"github.com/geektutu/7days-golang/gee-orm/day3-save-query/clause"
+	"github.com/geektutu/7days-golang/gee-orm/day3-save-query/dialect"
+	"github.com/geektutu/7days-golang/gee-orm/day3-save-query/log"
+	"github.com/geektutu/7days-golang/gee-orm/day3-save-query/schema"
 	"strings"
 )
 

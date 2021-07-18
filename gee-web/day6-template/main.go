@@ -39,7 +39,7 @@ import (
 	"net/http"
 	"time"
 
-	"gee"
+	"github.com/geektutu/7days-golang/gee-web/day6-template/gee"
 )
 
 type student struct {

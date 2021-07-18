@@ -2,8 +2,8 @@ package geecache
 
 import (
 	"fmt"
-	"geecache/consistenthash"
-	pb "geecache/geecachepb"
+	"github.com/geektutu/7days-golang/gee-cache/day7-proto-buf/geecache/consistenthash"
+	pb "github.com/geektutu/7days-golang/gee-cache/day7-proto-buf/geecache/geecachepb"
 	"io/ioutil"
 	"log"
 	"net/http"

@@ -1,8 +1,9 @@
 package geecache
 
 import (
-	"geecache/lru"
 	"sync"
+
+	"github.com/geektutu/7days-golang/gee-cache/day5-multi-nodes/geecache/lru"
 )
 
 type cache struct {

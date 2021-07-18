@@ -3,8 +3,8 @@ package geeorm
 import (
 	"database/sql"
 
-	"geeorm/log"
-	"geeorm/session"
+	"github.com/geektutu/7days-golang/gee-orm/day1-database-sql/log"
+	"github.com/geektutu/7days-golang/gee-orm/day1-database-sql/session"
 )
 
 // Engine is the main struct of geeorm, manages all db sessions and transactions.
